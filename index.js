@@ -1,5 +1,3 @@
-var fs = require('fs');
-
 const appendText = require('./appendText');
 const wordArray = require('./wordArray');
 // all words
@@ -14,7 +12,7 @@ const daleChall = require('dale-chall');
     // code goes here
     const testArr = await wordArray("source.txt");
 
-    // console.log(testArr);
+    console.log(testArr);
 })();
 
 
